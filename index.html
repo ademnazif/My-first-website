@@ -1,10 +1,12 @@
-
-
 <!DOCTYPE html>
 <html lang="tr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Gebze Emre Oto Cam">
+  <meta name="keywords" content="Gebze Emre,Oto Cam">
+  <meta name="author" content="Nazif ademnazifciloglu@gmail.com">
+  <meta http-equiv="refresh" content="60">
   <title>Gebze Emre Oto Cam</title>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -13,9 +15,11 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background-color: #fff;
+      background-color: #000;
+      color: #fff;
     }
 
+    /* HEADER */
     header {
       background-color: #000;
       color: #fff;
@@ -31,9 +35,9 @@
       gap: 20px;
       align-items: center;
     }
-    
+
     .logo-container img {
-      height: 120px;
+      height: 80px;
       display: block;
     }
 
@@ -49,118 +53,23 @@
       margin-right: 8px;
     }
 
-    @media (max-width: 768px) {
-      header {
-        flex-direction: column;
-        gap: 15px;
-      }
-      .logo-container {
-        order: -1; 
-      }
-    }
-  </style>
-</head>
-<body>
-
-  <header>
-    <div class="left">
-      <a href="tel:+905455737443"><i class="fas fa-phone"></i> +90 545 573 74 43</a>
-      <a href="https://maps.app.goo.gl/Zvok2gq45Z5p4vVt9" target="_blank">
-        <i class="fas fa-map-marker-alt"></i> Harita
-      </a>
-    </div>
-
-    <div class="logo-container">
-      <img src="logo3.jpg" alt="Emre Oto Cam Logo">
-    </div>
-
-    <div class="right">
-      <a href="https://www.instagram.com/emreotocam" target="_blank">
-        <i class="fab fa-instagram"></i> Instagram
-      </a>
-      <a href="https://wa.me/905455737443" target="_blank">
-        <i class="fab fa-whatsapp"></i> WhatsApp
-      </a>
-    </div>
-  </header>
-<body style="background-color: black;">
-</body>
-</html>
-
-  <head>
-
-<meta charset="UTF-8">
-
-<meta name="description"
-
-content="Gebze Emre Oto Cam">
-
-<meta name="keywords"
-
-content="Gebze Emre,Oto Cam">
-
-<meta name="author"
-
-content="Nazif ademnazifciloglu@gmail.com">
-
-<meta name="viewport"
-
-content="width=device-width,
-
-initial-scale=1.0">
-
-<meta http-equiv="refresh" content="60">
-
-</head>
-  
-  <body>
-    <img src="instagram22.jpg" width="1500px"
-      " style="max-width: 100%; height: auto;"
-      alt="instagram22"  title="instagram22">
-  </body>
-  
-  <body>
-    <img src="cam5.jpeg" width="1500px"
-      " style="max-width: 100%; height: auto;"
-        alt="cam5"  title="cam5">
-  </body>
-<video src="insta5.mp4" width="1500px" controls autoplay muted loop  " style="max-width: 100%; height: auto;">
-></video>
-  <body>
-    <img src="insta7.jpg" width="1500px" " style="max-width: 100%; height: auto;"
-      alt="insta7"  title="insta7">
-  </body>
-  
-  <video src="insta6.mp4" width="1500px" controls autoplay muted loop  " style="max-width: 100%; height: auto;">
-
-></video>
-    
-  <body>
-    <img src="insta8.jpeg" width="1500px" " style="max-width: 100%; height: auto;"
-      alt="insta8"  title="insta8">
-  </body>
-  
-  
-<!DOCTYPE html>
-<html lang="tr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #fff;
+    /* GALERİ */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 10px;
+      padding: 10px;
+      background-color: black;
     }
 
-    video {
-      display: block;
+    .gallery img, .gallery video {
       width: 100%;
       height: auto;
-      margin: 0;
-      padding: 0;
+      border-radius: 8px;
+      display: block;
     }
 
+    /* FOOTER */
     .site-footer {
       background-color: #FFD700;
       color: #333;
@@ -183,22 +92,56 @@ initial-scale=1.0">
       text-decoration: none;
     }
 
-    .footer-center {
-      text-align: center;
-    }
-
     .footer-center img {
       height: 50px;
     }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+      .gallery {
+        grid-template-columns: 1fr;
+      }
+    }
   </style>
 </head>
-  <body>
-    <img src="insta68.jpg" width="1500px" " style="max-width: 100%; height: auto;"
-      alt="insta68"  title="insta68">
-  </body>
+<body>
 
+  <!-- HEADER -->
+  <header>
+    <div class="left">
+      <a href="tel:+905455737443"><i class="fas fa-phone"></i> +90 545 573 74 43</a>
+      <a href="https://maps.app.goo.gl/Zvok2gq45Z5p4vVt9" target="_blank">
+        <i class="fas fa-map-marker-alt"></i> Harita
+      </a>
+    </div>
+    <div class="logo-container">
+      <img src="logo3.jpg" alt="Emre Oto Cam Logo">
+    </div>
+    <div class="right">
+      <a href="https://www.instagram.com/emreotocam" target="_blank">
+        <i class="fab fa-instagram"></i> Instagram
+      </a>
+      <a href="https://wa.me/905455737443" target="_blank">
+        <i class="fab fa-whatsapp"></i> WhatsApp
+      </a>
+    </div>
+  </header>
 
-  <!-- Footer -->
+  <!-- GALERİ -->
+  <div class="gallery">
+    <img src="instagram22.jpg" alt="instagram22">
+    <img src="cam5.jpeg" alt="cam5">
+    <video src="insta5.mp4" controls autoplay muted loop></video>
+    <img src="insta7.jpg" alt="insta7">
+    <video src="insta6.mp4" controls autoplay muted loop></video>
+    <img src="insta8.jpeg" alt="insta8">
+    <img src="insta68.jpg" alt="insta68">
+  </div>
+
+  <!-- FOOTER -->
   <footer class="site-footer">
     <div class="footer-left">
       <a href="tel:+905455737443">📞</a>
@@ -206,7 +149,7 @@ initial-scale=1.0">
       <a href="https://wa.me/905455737443">💬</a>
     </div>
     <div class="footer-center">
-      <img src="logo8.jpg" width="125px" " style="max-width: 1500%; height: auto;"  alt="logo8">
+      <img src="logo8.jpg" alt="logo8">
     </div>
     <div class="footer-right">
       <a href="https://maps.app.goo.gl/pSmioix4x4p9zKxw8">📍 Harita</a>
